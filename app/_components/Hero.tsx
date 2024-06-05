@@ -100,5 +100,23 @@ export const products = [
     thumbnail:
       "/figpro.png",
   },
+  {
+    title: "Architectural Design Forum",
+    link: "https://architecturaldesignforum.netlify.app",
+    thumbnail:
+      "/adf.png",
+  },
+  {
+    title: "Genesis",
+    link: "https://genesisdev.netlify.app/",
+    thumbnail:
+      "/genesis.png",
+  },
+  {
+    title: "Yoom",
+    link: "https://github.com/manmeetnagii?tab=repositories",
+    thumbnail:
+      "/yoom.png",
+  },
   
 ];

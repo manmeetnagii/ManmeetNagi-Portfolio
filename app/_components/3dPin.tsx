@@ -8,10 +8,10 @@ import Image from "next/image";
 export function AnimatedPinDemo() {
   return (
     <div id="projects" className="relative flex  h-full w-full flex-col items-center justify-center overflow-hidden border-t-2 border-[#1f1f1f]  bg-background py-14 md:shadow-xl">
-        <div className="mb-[5rem] w-full z-[999] px-[8.2rem]">
-            <h1 className="text-5xl w-full flex items-start justify-start font-semibold">RECENT PROJECTS</h1>
-            <p className="text-xl  mb-[3rem] font-medium text-gray-500">My Work</p>
-            <p className="w-[80%] text-lg">Following projects showcase my knowledge and skills in the field. Each project is shortly described with links to the live demos in it. The source code for these projects can be found in my <a href="https://github.com/manmeetnagii?tab=repositories" className="text-blue-500 underline">Github Repo</a>. Mainly MERN Technologies are used in development of these projects.</p>
+        <div className="mb-[5rem] w-full z-[999] px-[2rem]">
+            <h1 className="text-4xl w-full flex items-start justify-start font-semibold">RECENT PROJECTS</h1>
+            <p className="text-sm  mb-[3rem] font-medium text-gray-500">My Work</p>
+            <p className="md:w-[80%] text-sm">Following projects showcase my knowledge and skills in the field. Each project is shortly described with links to the live demos in it. The source code for these projects can be found in my <a href="https://github.com/manmeetnagii?tab=repositories" className="text-blue-500 underline">Github Repo</a>. Mainly MERN Technologies are used in development of these projects.</p>
         </div>
       <div className="h-full w-full flex flex-wrap   items-center justify-center  gap-y-[4rem]">
       <PinContainer

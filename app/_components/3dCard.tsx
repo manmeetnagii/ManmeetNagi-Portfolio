@@ -9,9 +9,9 @@ export function ThreeDCardDemo() {
   return (
 
     <div id="certificates" className="flex border-[#1f1f1f] border-t-2    gap-[2rem] flex-wrap w-full h-full items-center justify-center">
-      <div className="mb-[5rem] w-full z-[999] px-[8.2rem]">
-            <h1 className="text-5xl w-full flex items-start justify-start font-semibold mt-20">CERTIFICATIONS</h1>
-            <p className="text-xl  mb-[3rem] font-medium text-gray-500">My Achievments</p>
+      <div className=" w-full z-[999] px-[2rem]">
+            <h1 className="text-4xl md:text-5xl w-full flex items-start justify-start font-semibold mt-20">CERTIFICATIONS</h1>
+            <p className="text-sm  mb-[3rem] font-medium text-gray-500">My Achievments</p>
         </div>
     <CardContainer className="inter-var w-[22rem]">
       <CardBody className=" relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[20rem] h-auto sm:w-[30rem]  rounded-xl p-6 border  ">
