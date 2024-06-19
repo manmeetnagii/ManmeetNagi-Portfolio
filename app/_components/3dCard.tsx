@@ -10,7 +10,7 @@ export function ThreeDCardDemo() {
 
     <div id="certificates" className="flex border-[#1f1f1f] border-t-2    gap-[2rem] flex-wrap w-full h-full items-center justify-center">
       <div className=" w-full z-[999] px-[2rem]">
-            <h1 className="text-4xl md:text-5xl w-full flex items-start justify-start font-semibold mt-20">CERTIFICATIONS</h1>
+            <h1 className="text-4xl w-full flex items-start justify-start font-semibold mt-20 text-white">CERTIFICATIONS</h1>
             <p className="text-sm  mb-[3rem] font-medium text-gray-500">My Achievments</p>
         </div>
     <CardContainer className="inter-var w-[22rem]">

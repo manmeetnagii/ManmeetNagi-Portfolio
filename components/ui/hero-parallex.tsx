@@ -59,7 +59,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-full overflow-hidden  md:py-40 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-full overflow-hidden  bg-black md:py-40 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
          <FixedNavbar/>
       <Header />
@@ -73,7 +73,7 @@ export const HeroParallax = ({
         }}
         className="top-[-300px] md:top-[-500px] relative"
       >
-        <h2 className="text-3xl  font-semibold mb-[4rem] px-[1rem] text-nowrap md:text-4xl md:px-[8.2rem]">Glimpse of my work.</h2>
+        <h2 className="text-3xl  font-semibold mb-[4rem] px-[1rem] text-nowrap md:text-4xl md:px-[8.2rem] text-white">Glimpse of my work.</h2>
         
        
          
@@ -115,7 +115,7 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl  relative mx-auto md:p-[6rem] md:py-40 px-4 w-full  left-0 md:top-[-70px] top-[140px]">
-      <h1 className="text-5xl md:text-7xl relative z-[9999999]  font-bold dark:text-white">
+      <h1 className="text-5xl md:text-7xl relative z-[9999999]  font-bold text-white">
         Manmeet Nagi
       </h1>
       <p className="z-[9999] relative max-w-2xl md:text-xl mt-8 text-neutral-200">

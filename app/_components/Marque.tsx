@@ -147,9 +147,9 @@ export const Marque = () => {
   return (
     <div id="skills" className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden border-t-2 border-[#1f1f1f]  bg-background py-14 md:shadow-xl">
         <div className="mb-[5rem] w-full z-[999] px-[1rem]">
-            <h1 className="text-4xl w-full flex items-start justify-start font-semibold">SKILLS</h1>
+            <h1 className="text-4xl w-full flex items-start justify-start font-semibold text-white">SKILLS</h1>
             <p className="text-sm  mb-[3rem] font-medium text-gray-500">What I&apos;ve learnt so far</p>
-            <p className=" text-sm">I am a skilled software developer with proficiency in Web Development, and expertise in numerous libraries and frameworks including React.js, Next.js, Tailwind CSS, Express.js, Node.js, Shadcn-UI, etc. I am a quick learner, possess adaptive nature, leadership qualities and abilities to work in a team effectively. Know more about my skills and projects below.</p>
+            <p className=" text-sm text-white">I am a skilled software developer with proficiency in Web Development, and expertise in numerous libraries and frameworks including React.js, Next.js, Tailwind CSS, Express.js, Node.js, Shadcn-UI, etc. I am a quick learner, possess adaptive nature, leadership qualities and abilities to work in a team effectively. Know more about my skills and projects below.</p>
         </div>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
