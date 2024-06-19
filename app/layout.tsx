@@ -1,37 +1,28 @@
-"use client"
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { FloatingNavDemo } from "./_components/Navbar";
 import Footer from "./_components/Footer";
-import { useEffect, useState } from "react";
+
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Manmeet Nagi | Portfolio",
+  description: "Software Developer",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [theme, setTheme] = useState('light');
-
-  useEffect(() => {
-    const bodyClass = document.body.classList;
-    if (bodyClass.contains('dark-theme')) {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  }, []);
-
   return (
 
     <html lang="en">
       <head>
-        <title>Manmeet Nagi | Portfolio</title>
-        <link rel="icon" href="light.svg" />
-        {theme === 'dark' && <link rel="icon" href="dark.svg"/>}
+        <link rel="icon" href="dark.svg" media="(prefers-color-scheme: light)" />
+        <link rel="icon" href="light.svg" media="(prefers-color-scheme: dark)" />
       </head>
       <body className={inter.className}>
         <FloatingNavDemo />
