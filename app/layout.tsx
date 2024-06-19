@@ -9,11 +9,6 @@ import { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Manmeet Nagi | Portfolio",
-  description: "Software Developer",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -34,6 +29,7 @@ export default function RootLayout({
 
     <html lang="en">
       <head>
+        <title>Manmeet Nagi | Portfolio</title>
         <link rel="icon" href="dark.svg" />
         {theme === 'dark' && <link rel="icon" href="light.svg" />}
       </head>
