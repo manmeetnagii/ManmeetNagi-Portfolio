@@ -30,8 +30,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Manmeet Nagi | Portfolio</title>
-        <link rel="icon" href="dark.svg" />
-        {theme === 'dark' && <link rel="icon" href="light.svg" />}
+        <link rel="icon" href="light.svg" />
+        {theme === 'dark' && <link rel="icon" href="dark.svg"/>}
       </head>
       <body className={inter.className}>
         <FloatingNavDemo />
